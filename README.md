@@ -1,7 +1,6 @@
 # Solution of Team sdkxd for MICCAI 2023 Challenge
 
-Built upon [MIC-DKFZ/nnUNet-1.7.1](https://github.com/MIC-DKFZ/nnUNet/tree/v1.7.1), this repository provides the solution of team sdkxd for [MICCAI FLARE22](https://flare22.grand-challenge.org/) Challenge. The details of our method are described in our [paper](https://openreview.net/forum?id=FNMbe2vLvev). 
-
+Built upon [MIC-DKFZ/nnUNet-1.7.1](https://github.com/MIC-DKFZ/nnUNet/tree/v1.7.1), this repository provides the solution of team sdkxd for [MICCAI FLARE22](https://flare22.grand-challenge.org/) Challenge.
 
 ## Environments and Requirements:
 Install nnU-Net as below. You should meet the requirements of nnUNet, our method does not need any additional requirements. For more details, please refer to https://github.com/MIC-DKFZ/nnUNet/tree/v1.7.1
