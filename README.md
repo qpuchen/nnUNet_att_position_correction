@@ -1,6 +1,6 @@
-# Solution of Team sdkxd for MICCAI 2023 Challenge
+# Solution of Team sdkxd for MICCAI 2023 Challenges: STS - Tooth Segmentation Task Based on 3D CBCT
 
-Built upon [MIC-DKFZ/nnUNet-1.7.1](https://github.com/MIC-DKFZ/nnUNet/tree/v1.7.1), this repository provides the solution of team sdkxd for [MICCAI FLARE22](https://flare22.grand-challenge.org/) Challenge.
+Built upon [MIC-DKFZ/nnUNet-1.7.1](https://github.com/MIC-DKFZ/nnUNet/tree/v1.7.1), this repository provides the solution of team sdkxd for [MICCAI 2023 Challenges: STS - Tooth Segmentation Task Based on 3D CBCT](https://tianchi.aliyun.com/competition/entrance/532087/rankingList).
 
 ## Environments and Requirements:
 Install nnU-Net as below. You should meet the requirements of nnUNet, our method does not need any additional requirements. For more details, please refer to https://github.com/MIC-DKFZ/nnUNet/tree/v1.7.1
