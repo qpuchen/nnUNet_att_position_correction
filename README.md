@@ -56,9 +56,9 @@ nnUNet_predict -i $INPUTS_FOLDER -o $OUTPUTS_FOLDER -t 2 -m 3d_fullres --save_np
 
 ### 2.3. Filter Low-quality Pseudo Labels
 We compare Pseudo Labels in different rounds and filter out the labels with high variants.
-
+```
 select_pseudo_label.ipynb
-
+```
 
 ### 3. Training nnUNet-att by 5-fold Cross Validation
 ### 3.1. Copy the following files in this repo to your nnUNet environment.
@@ -80,7 +80,7 @@ We modify the `generic_UNet.py` of nnunet source code for efficiency. Please mak
 nnUNet_predict -i $INPUTS_FOLDER -o $OUTPUTS_FOLDER -t 3 -m 3d_fullres --save_npz
 ```
 
-### 3. Correction of abnormal segmentation points through position correction module
+### 4. Correction of abnormal segmentation points through position correction module
 
 ```
 python position_correction.py
