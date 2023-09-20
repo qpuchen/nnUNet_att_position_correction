@@ -14,7 +14,7 @@ pip install -e .
 ### 1.1. Prepare Labeled Data of MICCAI 2023 Challenge
 Following nnUNet, give a TaskID (e.g. Task001) to the labeled data and organize them folowing the requirement of nnUNet.
 
-    nnUNet_raw_data_base/nnUNet_raw_data/Task01_Tooth /
+    nnUNet_raw_data_base/nnUNet_raw_data/Task01_Tooth/
     ├── dataset.json
     ├── imagesTr
     ├── imagesTs
