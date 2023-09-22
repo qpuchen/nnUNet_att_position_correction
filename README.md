@@ -74,7 +74,7 @@ CUDA_VISIBLE_DEVICES=0,1 nnUNet_train_DP 3d_fullres nnUNetTrainerV2_DP 3 $FOLD -
 done
 ```
 
-### 3.3.  Add the '_000' suffix to the file name of the test set data
+### 3.3.  Add the '_000' suffix to the file name of the testset data
 
 ```
 pyhton add_suffix.py
