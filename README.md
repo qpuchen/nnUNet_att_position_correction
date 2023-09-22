@@ -74,14 +74,14 @@ CUDA_VISIBLE_DEVICES=0,1 nnUNet_train_DP 3d_fullres nnUNetTrainerV2_DP 3 $FOLD -
 done
 ```
 
-### 3.3.  Add the '_000' suffix to the file name of the testset data
+### 3.3. Add the '_000' suffix to the file name of the testset data
 
 ```
 pyhton add_suffix.py
 ```
 
 
-### 3.3.  Do Efficient Inference with nnUNet-att
+### 3.4. Do Efficient Inference with nnUNet-att
 We modify the `generic_UNet.py` of nnunet source code for efficiency. Please make sure the code backup is done and then copy the whole repo to your nnunet environment.
 ```
 nnUNet_predict -i $INPUTS_FOLDER -o $OUTPUTS_FOLDER -t 3 -m 3d_fullres --save_npz
