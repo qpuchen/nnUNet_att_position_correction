@@ -2,7 +2,7 @@
 
 Official PyTorch implementation of [Semi-Supervised 3D Tooth Segmentation Using nn-UNet with Axial Attention and Positional Correction](https://link.springer.com/chapter/10.1007/978-3-031-72396-4_9) (MICCAI 2023 STS).
 
-The Solution ranked fifth in the final ranking on unseen test data, with a score of 81.47%. 
+In the final ranking on unseen test data, this solution ranked 5th with a score of 81.47%.
 
 ## Environments and Requirements:
 Install nnU-Net as below. You should meet the requirements of nnUNet, our method does not need any additional requirements. For more details, please refer to https://github.com/MIC-DKFZ/nnUNet/tree/v1.7.1
